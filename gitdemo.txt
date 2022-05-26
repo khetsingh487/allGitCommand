@@ -1,0 +1,27 @@
+//initialize git user name and email.
+git confit --globle user.name khetsingh
+git congit --globle user.email khetsighyogi@gmail.com
+
+//check initilized user details
+git config --globle user.name
+git config --globle user.email
+
+
+//how to init reporigitory
+git init
+
+//check hidden files
+git ls -lart
+
+//check status of reporigitory
+git status
+
+//add undracked file in unmodified(unstage) area
+git add filename
+
+//add commit 
+git commit
+
+//add new 
+touch filename
+
