@@ -32,4 +32,12 @@ touch filename
 git checkout -f
 
 //to see all the commit 
-git log
+git log 
+
+//see last five commit'see
+git log -p -5
+
+//how to move in folder 
+press q
+
+
