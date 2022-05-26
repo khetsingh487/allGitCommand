@@ -31,3 +31,5 @@ touch filename
 //how to restore multipals file modifiedfile
 git checkout -f
 
+//to see all the commit 
+git log
