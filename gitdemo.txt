@@ -40,4 +40,6 @@ git log -p -5
 //how to move in folder 
 press q
 
+//comare modifed changeg
+git diff
 
