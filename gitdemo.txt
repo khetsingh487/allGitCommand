@@ -20,7 +20,7 @@ git status
 git add filename
 
 //add commit 
-git commit
+git commit -A "write message"
 
 //add new 
 touch filename
