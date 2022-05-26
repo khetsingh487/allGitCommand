@@ -24,4 +24,6 @@ git commit -A "write message"
 
 //add new 
 touch filename
-
+ 
+ //how to restore your modifiedfile
+ git checkout filename
