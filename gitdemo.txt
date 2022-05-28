@@ -51,3 +51,10 @@ git commit -a -m "message"
 
 //delect file
 git rm filename
+
+//create new branch
+git branch branchname
+ 
+//to switch in another git branch
+git checkout branchname
+
