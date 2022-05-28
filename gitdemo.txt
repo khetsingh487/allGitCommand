@@ -48,3 +48,6 @@ git diff
 
 //how to commit file directally without puting in staging area
 git commit -a -m "message"
+
+//delect file
+git rm filename
