@@ -51,3 +51,8 @@ git commit -a -m "message"
 
 //delect file
 git rm filename
+
+//restore deleted file but remember after deleting file file we wecome staging file.
+// so you want to restore file than first convert in untract mode by this command
+git restore --stage filename 
+// but if you don't want to restore deleted file then you can commit
