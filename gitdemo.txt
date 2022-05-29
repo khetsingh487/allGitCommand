@@ -18,7 +18,7 @@ git status
 
 //add undracked file in unmodified(unstage) area
 git add filename
-
+ 
 //add commit 
 git commit -A "write message"
 
