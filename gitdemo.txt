@@ -65,3 +65,26 @@ git branch branchname
 git checkout branchname
 
 
+//befor pushing our repogitory we have to define add some cammands.
+//fist create github account on github.com
+//then create new repository
+//now copy to origin from git repogitory
+//and add origin in your git cammand bash.
+$ git remote add origin git@github.com:khetsingh487/allGitCommand.git
+//after adding this create ssh key for authentication to push on github
+//go into profile and click on setting where click add ssh key
+
+//befor adding ssh key we have generate ssh key by following these commands
+$ eval "$(ssh-agent -s)"
+$ ssh-add ~/.ssh/id_ed25519
+$ clip < ~/.ssh/id_ed25519.pub
+
+//after writing these command ssh key will be generating
+//then copy ssh key and put in key input and save the ssh key
+
+//after that we can easly push our deploy or project on github by this command.
+git push -u origin branchname
+
+
+
+
