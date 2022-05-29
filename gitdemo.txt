@@ -56,3 +56,10 @@ git rm filename
 // so you want to restore file than first convert in untract mode by this command
 git restore --stage filename 
 // but if you don't want to restore deleted file then you can commit
+
+
+//how to create new branch
+git branch branchname
+
+//switch one branch to another branch. 
+git checkout branchname
